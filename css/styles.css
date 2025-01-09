@@ -311,7 +311,7 @@ svg {
 
 table {
   caption-side: bottom;
-  border-collapse: collapse;
+  border-spacing: 50px;
 }
 
 caption {
@@ -329,12 +329,10 @@ th {
 thead,
 tbody,
 tfoot,
-tr,
-td,
-th {
+tr
+{
   border-color: inherit;
-  border-style: solid;
-  border-width: 0;
+  border-width: 0.5;
 }
 
 label {
@@ -11026,4 +11024,14 @@ p {
 
 .address strong {
   font-size: 1.2rem;
+}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
+mark.blue {
+    color:#0000A0;
+    background: none;
 }
